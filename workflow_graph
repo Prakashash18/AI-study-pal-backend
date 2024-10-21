@@ -1,0 +1,15 @@
+// Workflow Graph
+digraph {
+	categorize_input
+	student_question_cat
+	notes_reference
+	web_reference
+	youtube_reference
+	summary_reference
+	casual_response
+	__start__ -> categorize_input
+	youtube_reference -> summary_reference
+	casual_response -> __end__
+	summary_reference -> __end__
+	web_reference -> summary_reference
+}
