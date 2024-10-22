@@ -124,7 +124,7 @@ posthog==3.7.0
 primp==0.6.4
 propcache==0.2.0
 proto-plus==1.24.0
-protobuf==4.25.5
+protobuf>=3.20.2,<6.0.0dev
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pycparser==2.22
